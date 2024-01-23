@@ -1,0 +1,114 @@
+<html>
+<head><title>Glam Studio</title>
+<style> 
+#body{
+background-image:url('abc7.png');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:1820px 845px;
+overflow-x:hidden;
+}
+#welcome{
+font-size:60px;
+font-family:"Vivaldi";
+position:relative;
+color:000033;
+top:60px;
+left:250px; 
+}
+#box{
+border:2px solid white;
+background-color:000033;
+height:500px;
+width:500px; 
+position:relative;
+top:70px;
+left:150px;
+}
+#user{
+font-size:25px;
+font-family:"Bauhaus 93";
+color:white;
+position:relative;
+left:20px;
+top:-20px;
+}
+#userimg{
+position:relative;
+top:45px;
+left:-55px;
+}
+#infouser{
+padding:15px;
+position:relative;
+width:60%;
+top:-25px;
+}
+#key{
+font-size:25px;
+font-family:"Bauhaus 93";
+color:white;
+position:relative;
+left:20px;
+top:-65px;
+}
+#keyimg{
+position:relative;
+left:-55px;
+top:1px;
+}
+#infokey{
+padding:15px;
+position:relative;
+width:60%;
+top:-70px;
+}
+#submit{
+padding:10px;
+width:30%;
+position:relative;
+top:-50px;
+}
+.link{
+font-size:20px;
+position:relative;
+left:350px;
+}
+#name{
+font-size:70px;
+font-family:"wide latin";
+color:000033;
+text-decoration:bold;
+margin-top:-110px;
+margin-left:170px;
+}
+#logo{
+border-radius:50%;
+}
+a{
+text-decoration:none;
+color:white;
+}
+</style>
+</head>
+<body id="body">
+<p><img src="logo.png" height="120px" width="160px" id="logo"></p>
+<div id="name">Glam Studio</div>
+<div id="welcome"><b>Admin Panel</b></div>
+<form method="post" action="page7.php">
+<div id="box">
+<center>
+<img src="user1.png" height="40px" width="40px" id="userimg">
+<p id="user">Username</p>
+<p><input type="text" name="user" id="infouser"></p>
+<img src="key1.png" height="40px" width="40px" id="keyimg">
+<p id="key">Password</p>
+<p><input type="password" name="pass" id="infokey"></p>
+<p><input type="submit" value="Sign In" name="sub" id="submit"></p>
+</center>
+<div class="link"><a href="page1.html">Back to Home?</a></div>
+<div class="link"><a href="page6.html">Forget Password?</a></div>
+</div>
+</form>
+</body>
+</html>
